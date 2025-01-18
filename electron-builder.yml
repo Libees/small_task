@@ -1,5 +1,5 @@
 appId: li.ele_small_task
-productName: ele_small_task
+productName: 微习惯
 directories:
   buildResources: build
 files:
@@ -11,7 +11,8 @@ files:
 asarUnpack:
   - resources/**
 win:
-  executableName: ele_small_task
+  executableName: 微习惯
+  icon: ./resources/up.png
 nsis:
   artifactName: ${name}-${version}-setup.${ext}
   shortcutName: ${productName}

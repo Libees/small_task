@@ -1,7 +1,7 @@
 import { app, shell, BrowserWindow } from 'electron'
 import { join } from 'path'
 import { electronApp, optimizer, is } from '@electron-toolkit/utils'
-import icon from '../../resources/task.png?asset'
+import icon from '../../resources/up.png?asset'
 
 function createWindow() {
   // Create the browser window.
